@@ -1,0 +1,29 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://project.gd" type="Script" id=1]
+[ext_resource path="res://task.gd" type="Script" id=2]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 2 )
+title = "Saving stuff is fun"
+todos = [  ]
+
+[sub_resource type="Resource" id=2]
+script = ExtResource( 2 )
+title = "Shits working nowasdasd"
+todos = [  ]
+
+[sub_resource type="Resource" id=3]
+script = ExtResource( 2 )
+title = "Amazing Task"
+todos = [  ]
+
+[sub_resource type="Resource" id=4]
+script = ExtResource( 2 )
+title = "A really dope task"
+todos = [  ]
+
+[resource]
+script = ExtResource( 1 )
+title = "Mein Testprojekt"
+tasks = [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ]
